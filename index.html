@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#100d16">
+  <meta name="color-scheme" content="dark">
+  <meta name="description" content="Zov Launcher — скачать loader.">
+  <title>Zov Launcher</title>
+  <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./styles.css">
+  <script src="./script.js" defer></script>
+</head>
+<body>
+  <main class="landing" aria-labelledby="title">
+    <div class="brand-mark" aria-hidden="true">
+      <svg viewBox="0 0 128 128" fill="none" focusable="false">
+        <defs>
+          <linearGradient id="mark" x1="20" y1="16" x2="108" y2="116" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#F6EFFF"/><stop offset=".53" stop-color="#D3AFF0"/><stop offset="1" stop-color="#A979CE"/>
+          </linearGradient>
+        </defs>
+        <path d="M32 29H96V43L53 85H96V99H32V85L75 43H32V29Z" fill="url(#mark)"/>
+      </svg>
+    </div>
+    <h1 id="title">Zov <span>Launcher</span></h1>
+    <a class="download" id="download" href="https://github.com/Helixleet/zov-launcher-site/releases/download/1.0/Launcher.exe" download="ZovBootstrap.exe">
+      <span>Скачать loader</span>
+      <svg aria-hidden="true" viewBox="0 0 24 24" width="20" height="20" fill="none" focusable="false">
+        <path d="M12 3v12m-4-4 4 4 4-4M5 16v4h14v-4" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+    </a>
+    <p class="notice" id="notice" role="status" hidden></p>
+  </main>
+</body>
+</html>
